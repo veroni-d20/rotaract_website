@@ -1,506 +1,322 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ROTRACT</title>
+  <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://startbootstrap.com/templates/agency/font-awesome-4.1.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="teammembers.css">
+<link rel="stylesheet" href="gallery.css">
+<link rel="stylesheet" href="style.css">
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css"
-    />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-    />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
-
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <!--navbar start-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark fixed-top"
-      style="background-color: black"
-    >
-      <a class="navbar-brand" href="#">
-        <img
-          src="img/logo.jpeg"
-          alt=""
-          width="55"
-          height="40"
-          class="d-inline-block align-top"
-        />
-        Rotaract</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Celine Is Awesome</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
-    <!--navbar end-->
-
-    <!--hero start-->
-    <section class="hero d-flex align-items-center" id="home">
-      <div class="container text-center rellax">
-        <span class="text-white font-weight-bold hero-tagline">
-          BRAND<br />NAME
-        </span>
-        <p class="text-white font-weight-bold">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae,
-          labore fugiat nulla minima maiores omnis non! Odit ab facere impedit
-          suscipit, qui, optio blanditiis saepe laboriosam earum soluta
-          praesentium mollitia!
-        </p>
-        <a
-          class="btn btn-info font-weight-bold btn-lg mt-3 mt-md-5 smooth"
-          href="#intro"
-        >
-          Scroll down
-        </a>
-      </div>
-    </section>
-    <!--hero end-->
-
-    <section>
-      <div class="bgimg1" id="about">
-        <h1>Parallax effect!</h1>
-      </div>
-      <div class="bgimg2" id="about">
-        <h2>Likeeee???</h2>
-      </div>
-    </section>
-
-    <!--services start-->
-    <section class="py-5">
-      <div class="container-fluid px-xl-0 d-xl-flex">
-        <div class="col-12 col-xl-6 px-xl-0">
-          <img src="hero2.jpg" alt="" class="img-fluid" />
+   <!-- Header -->
+   <header>
+    <div class="container" style="padding-top: 20rem;">
+        <div class="intro-text">
+            <div class="intro-lead-in"></div>
+            <div class="intro-heading"></div>
+            <a href="#services" class="page-scroll btn btn-xl" >ABOUT US</a>
         </div>
-        <div class="col-12 col-xl-6 my-4">
-          <div class="accordion" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-link btn-block text-left"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    PROJECTS
-                  </button>
-                </h2>
-              </div>
+    </div>
+</header>
 
-              <div
-                id="collapseOne"
-                class="collapse show"
-                aria-labelledby="headingOne"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Amet expedita modi distinctio impedit neque placeat
-                    repellendus quod voluptates dicta ad architecto, eaque
-                    obcaecati accusamus ea laborum, perspiciatis eos nulla
-                    harum.
-                  </p>
-                  <p>Learn more &RightArrow;</p>
+    <!-- Services Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" style="background-color:crimson">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted" style="color: whitesmoke;">Rotaract is a service club for young people ages 18 to 30 who are dedicated to finding innovative solutions to the world’s most pressing challenges while developing leadership skills and making friends from around the world. Rotaract clubs decide how to organize and run their own clubs, manage their funds, and plan and carry out activities and service projects that are important to their communities. Rotary clubs that sponsor Rotaract clubs offer guidance and support and work with Rotaractors as partners in service.</h3>
                 </div>
-              </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    SERVICES
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseTwo"
-                class="collapse"
-                aria-labelledby="headingTwo"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Sit facilis voluptate, amet quo recusandae sequi neque non
-                    id? Soluta doloribus in perspiciatis? Ut, sit. Quaerat in
-                    doloribus corporis eum molestias.
-                  </p>
-                  <p>Learn more &RightArrow;</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    INSURANCE
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseThree"
-                class="collapse"
-                aria-labelledby="headingThree"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque rerum minus odio, mollitia quia quidem nihil officiis
-                    quae, ipsa molestiae libero ea consectetur atque totam.
-                    Commodi in voluptates maiores obcaecati?
-                  </p>
-                  <p>Learn more &RightArrow;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            
+    </section>
+    <!-- events Grid Section -->
+    <section id="portfolio">
+       <!-- partial:index.partial.html -->
+<div class="container">
+
+	<h1 class="heading"> Our Events <span></span></h1>
+
+	<div class="gallery">
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="event1.jpeg" alt="">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="event4.jpeg" alt="sunset behind San Francisco city skyline">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="event5 (1).jpeg" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="event3.jpeg" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="event9 (1).jpeg" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="event7 (1).jpeg" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
+		</div>
+
+	</div>
+
+</div>
     </section>
 
-    <section>
-      <div class="wrapper">
-        <div class="gallery">
-          <ul>
-            <li>
-              <img src="img/event1.jpeg" />
-            </li>
-            <li>
-              <img src="img/event2.jpeg" />
-            </li>
-            <li>
-              <img src="img/event3.jpeg" />
-            </li>
-            <li>
-              <img src="img/event4.jpeg" />
-            </li>
-            <li>
-              <img src="img/event5.jpeg" />
-            </li>
-            <li>
-              <img src="img/event6.jpeg" />
-            </li>
-            <li>
-              <img src="img/event7.jpeg" alt="" />
-            </li>
-            <li>
-              <img src="img/event8.jpeg" alt="" />
-            </li>
-            <li>
-              <img src="img/event9.jpeg" alt="" />
-            </li>
-          </ul>
-        </div>
-      </div>
+    <!-- About Section -->
+    <section id="about">
+     
     </section>
 
-    <!--services end-->
-
-    <!--Members start-->
-    <section class="py-5" id="testimonials">
-      <div class="container">
-        <h2 class="text-center font-weight-bold mb-4">Members</h2>
-        <!-- Swiper -->
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <section>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="img_avatar.png"
-                        alt="Avatar"
-                        style="width: 300px; height: 300px"
-                      />
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" style="color: rgb(255, 255, 255);">Our Amazing Members</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                    
+                <div class="container">
+                    <div class="card-column column-0">
+                      <div class="card card-color-0">
+                        <div class="border"></div>
+                        <img src="pres.jpeg" />
+                        <h1>Shimon Thomas Sanjan - PRESIDENT</h1>
+                      </div>
+                      <div class="card card-color-2">
+                        <div class="border"></div>
+                        <img src="sec.jpeg" />
+                        <h1>Yashwanth Yogi-SECRETARY</h1>
+                      </div>
                     </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div class="swiper-slide">
-              <section>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="img_avatar.png"
-                        alt="Avatar"
-                        style="width: 300px; height: 300px"
-                      />
-                    </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
+                    <div class="card-column column-1">
+                      <div class="card card-color-1">
+                        <div class="border"></div>
+                        <img src="vp.jpeg" />
+                        <h1>Aashrith M- VICE PRESIDENT</h1>
+                      </div>
+                      <div class="card card-color-3">
+                        <div class="border"></div>
+                        <img src="WhatsApp Image 2021-01-17 at 8.40.03 PM (1).jpeg" />
+                        <h1>Elizabeth Subhiksha Victoria - JOINT SECRETARY</h1>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </section>
-            </div>
-            <div class="swiper-slide">
-              <section>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="img_avatar.png"
-                        alt="Avatar"
-                        style="width: 300px; height: 300px"
-                      />
+                  <div class="container">
+                    <div class="card-column column-0">
+                      <div class="card card-color-0">
+                        <div class="border"></div>
+                        <img src="treasurer.jpeg" />
+                        <h1>Irene Janet A-TREASUER</h1>
+                      </div>
+                      <div class="card card-color-2">
+                        <div class="border"></div>
+                        <img src="csd.jpeg" />
+                        <h1>Philip Akash - CLUB SERVICE COMMITTEE</h1>
+                      </div>
                     </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div class="swiper-slide">
-              <section>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="img_avatar.png"
-                        alt="Avatar"
-                        style="width: 300px; height: 300px"
-                      />
-                    </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
+                    <div class="card-column column-1">
+                      <div class="card card-color-1">
+                        <div class="border"></div>
+                        <img src="dop.jpeg" />
+                        <h1>Marimuthu Harish-DIRECTOR OF  PROJECTS</h1>
+                      </div>
+                      <div class="card card-color-3">
+                        <div class="border"></div>
+                        <img src="csda.jpeg" />
+                        <h1>Danush Kumar-CLUB SERVICE COMMITTEE</h1>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </section>
-            </div>
-            <div class="swiper-slide">
-              <section>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="img_avatar.png"
-                        alt="Avatar"
-                        style="width: 300px; height: 300px"
-                      />
+                  <div class="container">
+                    <div class="card-column column-0">
+                      <div class="card card-color-0">
+                        <div class="border"></div>
+                        <img src="cmsd.jpeg" />
+                        <h1>Sankar B - COMMUNITY SERVICE COMMITTEE</h1>
+                      </div>
+                      <div class="card card-color-2">
+                        <div class="border"></div>
+                        <img src="krithika.jpeg" />
+                        <h1>Krithika - SEARGENT-AT-ARMS</h1>
+                      </div>
                     </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div class="swiper-slide">
-              <section>
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img
-                        src="img_avatar.png"
-                        alt="Avatar"
-                        style="width: 300px; height: 300px"
-                      />
-                    </div>
-                    <div class="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
+                    <div class="card-column column-1">
+                      <div class="card card-color-1">
+                        <div class="border"></div>
+                        <img src="cmsda.jpeg" />
+                        <h1>Delvyn jones - COMMUNITY SERVICE COMMITTEE</h1>
+                      </div>
+                      <div class="card card-color-3">
+                        <div class="border"></div>
+                        <img src="psd.jpeg" />
+                        <h1>Deepan Anto - PROFESSIONAL DEVELOPMENT COMMITTEE</h1>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </section>
-            </div>
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-      </div>
+                  <div class="container">
+                    <div class="card-column column-0">
+                      <div class="card card-color-0">
+                        <div class="border"></div>
+                        <img src="pro.jpeg" />
+                        <h1>Nithyasree - PUBLIC RELATIONS OFFICER</h1>
+                      </div>
+                      <div class="card card-color-2">
+                        <div class="border"></div>
+                        <img src="is.jpeg" />
+                        <h1>Trinita - INTERNATIONAL SERVICE DIRECTOR</h1>
+                      </div>
+                    </div>
+                    <div class="card-column column-1">
+                      <div class="card card-color-1">
+                        <div class="border"></div>
+                        <img src="pra.jpeg" />
+                        <h1>Sowmya R - PUBLIC RELATIONS OFFICER</h1>
+                      </div>
+                      <div class="card card-color-3">
+                        <div class="border"></div>
+                        <img src="eb.jpeg" />
+                        <h1>Md. Hamdaan - EDITORIAL BOARD HEAD</h1>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  
+                  <div id="cover" class="cover"></div>
+                  
+                  <div id="open-content" class="open-content">
+                    <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
+                    <img id="open-content-image" src="" />
+                    <div class="text" id="open-content-text">
+                    </div>
+                  </div>
+                  
     </section>
-    <!--Members end-->
 
-    <!--footer start-->
-    <footer class="py-5 bg-dark text-white">
-      <div class="container d-md-flex">
-        <div class="co-md-6">
-          <h3 class="font-weight-bold mb-3">More about us</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eos
-            vitae neque, cum odio nihil quos, alias aut inventore molestias
-            facere quia omnis earum magni quibusdam, ex consequatur assumenda
-            necessitatibus!
-          </p>
+    <!-- Clients Aside -->
+   
+
+    <section id="contact">
+        
+          
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright © Your Website 2014</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-Instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="co-md-6 d-md-flex" id="footer-links-container">
-          <ul>
-            <li>Company</li>
-            <li>About us</li>
-            <li>Stratergy</li>
-            <li>Reach</li>
-          </ul>
-          <ul>
-            <li>Partners</li>
-            <li>Flare</li>
-            <li>GRN company</li>
-            <li>Midun industries</li>
-          </ul>
-          <ul>
-            <li>Legal</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>IPR</li>
-          </ul>
-        </div>
-      </div>
-      <div class="py-3 text-center">&copy; 2020 | All rights reserved</div>
     </footer>
-    <!--footer end-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+    <!-- Portfolio Modal 1 -->
+   
+
+    <!-- Portfolio Modal 6 -->
+ 
+    
+
+<span style="height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=);"></span></body>
+<!-- partial -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<!-- partial -->
+<script  src=""></script>
+     <script type="text/javascript">
+
+      $(window).scroll(function() {
+            var scrollPos = $(this).scrollTop();
+            $(".hero-back").css({
+                  'background-size' : 100 + scrollPos + '%'      
+            });
       });
-    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+      </script>
 
-    <script>
-      var rellax = new Rellax(".rellax");
-    </script>
 
-    <script src="smoothscroll.js"></script>
-  </body>
+</body>
 </html>
