@@ -678,7 +678,7 @@ section h3.section-subheading {
   margin-top: 0;
 }
 
-section#contact {
+/* #contact {
   background-attachment: scroll;
   background-image: url(.jpg);
   background-position: center center;
@@ -692,10 +692,10 @@ section#contact {
 }
 
 @media (min-width: 768px) {
-  section#contact {
+  #contact {
     padding: 150px 0;
   }
-}
+} */
 
 footer {
   padding: 25px 0;
