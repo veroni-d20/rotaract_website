@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/teammembers.css">
   <link rel="stylesheet" href="css/gallery.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/navbar.css" /> -->
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -37,6 +37,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <img src="images/rotract_logo.png" class="logo" alt="" />
+                <style>.logo {
+                  height: 60px;
+                  width: 60px;
+                  line-height: 60px;
+                  padding-left: 0 20px;
+                  box-sizing: border-box;
+                  float: left;
+                }</style>
                 <a class="navbar-brand page-scroll" href="#page-top">Rotaract Is Awesome</a>
             </div>
 
@@ -288,8 +297,9 @@
     <!-- Team Portfolio ends-->
 
     <!-- Tkt Carousel Starts-->
-    <section id="tkt">
+     <section id="tkt">
       <div class="container">
+        <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -299,40 +309,38 @@
           </ol>
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner">
+          <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img
-                src="images/rotract_logo.png"
-                alt="Los Angeles"
-                style="width: 50%"
-              />
+              <img class="center-block"
+                src="images/tkt/epi1.jpg" width="460" height="200"
+            />
               <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>LA is always so much fun!</p>
+                <h3>EPISODE 1</h3>
+                
               </div>
             </div>
 
             <div class="item">
-              <img
-                src="images/rotract_logo.png"
-                alt="Chicago"
-                style="width: 50%"
+              <img  class="center-block" 
+                src="images/tkt/epi2.jpg" width="460" height="200"
+               
+                
               />
               <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
+                <h3>EPISODE 2</h3>
+                
               </div>
             </div>
 
             <div class="item">
-              <img
-                src="images/rotract_logo.png"
-                alt="New York"
-                style="width: 50%"
+              <img class="center-block"
+                src="images/tkt/epi3.jpg" width="460" height="200"
+                
+                
               />
               <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
+                <h3>EPISODE 3</h3>
+                
               </div>
             </div>
           </div>
@@ -352,13 +360,103 @@
           </a>
         </div>
       </div>
-    </section>
+    </section> 
     <!-- Tkt Carousel Ends-->
 
     <!-- Services starts -->
-    <section id="services">
-      //services comes here
-    </section>
+    <!-- <section id="services">
+      <div class="container-fluid px-xl-0 d-xl-flex">
+        <div class="col-12 col-xl-6 px-xl-0">
+          <img src="images/others_temp/about.jpeg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 col-xl-6 my-4">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    PROJECTS
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                 <p>Details of all our projects also the projects with our partners </p>
+                 <p>Learn more &RightArrow;</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    SERVICES
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p>All services are provided to our clients.Starting from meeting the the project's needs,to take you from colaboration meetings all the way to ribbon-cutting and beyond.</p>
+                  <p>Learn more &RightArrow;</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                   INSURANCE
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p>We make the process of applying for insurance easy.As we contact the banks for our clients house insurance for their safe and sound future.</p>
+                  <p>Learn more &RightArrow;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
     <!-- Services ends -->
 
     <!-- Contact starts -->
