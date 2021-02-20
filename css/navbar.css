@@ -1,19 +1,62 @@
-/* @import url();
-body {
+@import url();
+/* body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
   background-color: #e8f8f5;
   background-attachment: fixed;
+} */
+.intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.intro-text .intro-lead-in {
+  margin-bottom: 25px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+.intro-text .intro-heading {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+@media (min-width: 768px) {
+  .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+  }
+
+  .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+  }
 }
 
 header {
   position: relative;
-  margin: 10px auto;
   padding: 10px;
-  background: #ffffff;
+  background: rgba(235, 141, 19, 0.918);
   box-sizing: border-box;
-  border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -65,9 +108,6 @@ nav ul li a:hover {
   header {
     margin: 10px;
   }
-}
-
-@media (max-width: 768px) {
   .logo {
     padding: 0;
   }
@@ -107,4 +147,4 @@ nav ul li a:hover {
   nav.alive ul li a {
     margin: 0;
   }
-} */
+}
